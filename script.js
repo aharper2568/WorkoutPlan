@@ -35,7 +35,7 @@ const workoutPlan = [
       },
       {
         name: "Overhead Triceps Extension",
-        video: "https://www.youtube.com/results?search_query=dumbbell+overhead+triceps+extension+form",
+        video: "https://www.youtube.com/watch?v=IV7SekKI7Ns",
         sets: 3,
         reps: "8–10",
         rest: "75 sec"
@@ -49,40 +49,69 @@ const workoutPlan = [
     exercises: [
       {
         name: "Romanian Deadlift",
-        video: "https://www.youtube.com/results?search_query=romanian+deadlift+form",
+        video: "https://www.youtube.com/watch?v=hQgFixeXdZo",
         sets: 3,
         reps: "8–10",
         rest: "90 sec"
       },
       {
         name: "One-Arm Dumbbell Row",
-        video: "https://www.youtube.com/results?search_query=one+arm+dumbbell+row+form",
+        video: "https://www.youtube.com/watch?v=dFzUjzfih7k",
         sets: 4,
         reps: "10 each arm",
         rest: "60 sec"
       },
       {
         name: "Lat Pulldown",
-        video: "https://www.youtube.com/results?search_query=lat+pulldown+form",
+        video: "https://www.youtube.com/watch?v=43hWj8mfYGY",
         sets: 3,
         reps: "8–10",
         rest: "75 sec"
       },
       {
         name: "Seated Biceps Curl",
-        video: "https://www.youtube.com/results?search_query=seated+biceps+curl+form",
+        video: "https://www.youtube.com/watch?v=nZkCoxZun0Y",
         sets: 2,
         reps: "10-12",
         rest: "45 sec"
       },{
         name: "Glute Bridge",
-        video: "https://www.youtube.com/results?search_query=glute+bridge+form",
+        video: "https://www.youtube.com/watch?v=L9KZfxT654Y",
         sets: 3,
         reps: "10-12",
         rest: "60 sec"
       }
     ]
+  },
+  {
+    id: "B",
+    title: "Day B Alternatives",
+    subtitle: "Under construction",
+    exercises: [
+      {
+        name: "the crusty crab pizza",
+        video: "https://www.youtube.com/watch?v=hQgFixeXdZo",
+        sets: 3,
+        reps: "8–10",
+        rest: "90 sec"
+      }
+    ]
+  },
+  {
+    id: "A",
+    title: "Day A Alternatives",
+    subtitle: "Not quite ready yet",
+    exercises: [
+      {
+        name: "Romanian Deadlift",
+        video: "https://www.youtube.com/watch?v=hQgFixeXdZo",
+        sets: 3,
+        reps: "8–10",
+        rest: "90 sec"
+      }
+    ]
   }
+
 ];
 
 
