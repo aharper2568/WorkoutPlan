@@ -3,15 +3,50 @@ const workoutPlan = [
   {
     id: "A",
     title: "Day A",
-    subtitle: "Lower body",
+    subtitle: "Anterior chain",
     exercises: [
       {
         name: "Goblet Squat",
-        video: "https://www.youtube.com/results?search_query=goblet+squat+form",
+        video: "https://www.youtube.com/watch?v=gCESNsDsbqk",
         sets: 3,
         reps: "10–12",
         rest: "60 sec"
       },
+      {
+        name: "Dumbbell Bench Press",
+        video: "https://www.youtube.com/watch?v=O7ECGhZj_Hc",
+        sets: 4,
+        reps: "8–10",
+        rest: "60 sec"
+      },
+      {
+        name: "Dumbbell Lunges",
+        video: "https://www.youtube.com/watch?v=lf4gJgKyLpI",
+        sets: 3,
+        reps: "12 each leg",
+        rest: "60 sec"
+      },
+      {
+        name: "Overhead Press",
+        video: "https://www.youtube.com/watch?v=-Xa2xYhPl-0",
+        sets: 3,
+        reps: "8–10",
+        rest: "75 sec"
+      },
+      {
+        name: "Overhead Triceps Extension",
+        video: "https://www.youtube.com/results?search_query=dumbbell+overhead+triceps+extension+form",
+        sets: 3,
+        reps: "8–10",
+        rest: "75 sec"
+      }
+    ]
+  },
+  {
+    id: "B",
+    title: "Day B",
+    subtitle: "Posterior chain",
+    exercises: [
       {
         name: "Romanian Deadlift",
         video: "https://www.youtube.com/results?search_query=romanian+deadlift+form",
@@ -20,39 +55,31 @@ const workoutPlan = [
         rest: "90 sec"
       },
       {
-        name: "Walking Lunges",
-        video: "https://www.youtube.com/results?search_query=walking+lunges+form",
-        sets: 3,
-        reps: "12 each leg",
-        rest: "60 sec"
-      }
-    ]
-  },
-  {
-    id: "B",
-    title: "Day B",
-    subtitle: "Upper body",
-    exercises: [
-      {
-        name: "Dumbbell Bench Press",
-        video: "https://www.youtube.com/results?search_query=dumbbell+bench+press+form",
-        sets: 3,
-        reps: "8–10",
-        rest: "90 sec"
-      },
-      {
         name: "One-Arm Dumbbell Row",
         video: "https://www.youtube.com/results?search_query=one+arm+dumbbell+row+form",
-        sets: 3,
+        sets: 4,
         reps: "10 each arm",
         rest: "60 sec"
       },
       {
-        name: "Overhead Press",
-        video: "https://www.youtube.com/results?search_query=dumbbell+overhead+press+form",
+        name: "Lat Pulldown",
+        video: "https://www.youtube.com/results?search_query=lat+pulldown+form",
         sets: 3,
         reps: "8–10",
         rest: "75 sec"
+      },
+      {
+        name: "Seated Biceps Curl",
+        video: "https://www.youtube.com/results?search_query=seated+biceps+curl+form",
+        sets: 2,
+        reps: "10-12",
+        rest: "45 sec"
+      },{
+        name: "Glute Bridge",
+        video: "https://www.youtube.com/results?search_query=glute+bridge+form",
+        sets: 3,
+        reps: "10-12",
+        rest: "60 sec"
       }
     ]
   }
